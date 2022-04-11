@@ -6,26 +6,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кинотеатр</title>
-    <style>
-        span{
-            color:blue
-        }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
-    <!--Первый экран-->
-    <div>
-        <div>
-            <div style="float: left; margin-right: 20px;">
-                <img src="img/logo.png" alt="logo">
-            </div>
-            <div style="float: left; margin-right: 20px"> 
-                <span>ЗАКАЗАТЬ БИЛЕТ ПРЕИМУЩЕСТВА ФИЛЬМЫ КОНТАКТЫ</span>
-            </div>
-            <div>
-                Ваш город: <strong>Москва</strong>
-            </div>
+    <br>
+    <br>
+<section> 
+    <div class="container">
+        <div class="movie_list">
+        <h2 class="movie_list_header">Выберите фильм</h2>
+        <table class="movie_list_table">
+            
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Stuff that will happen</th>
+                    <th>Button</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 10am - 12am</td>
+                    <td>Introduction and presentations about Envato</td>
+                    <td> + </td>
+                    
+                </tr>
+                <tr>
+                    <td>12 am - 02pm</td>
+                    <td>Sessions by honorable quests and Speakers</td>
+                    <td>+</td>
+                    
+                </tr>
+                <tr>
+                    <td> 02pm - 03pm</td>
+                    <td>Break and Mingle time with authors</td>
+                    <td>+</td>
+                   
+                </tr>
+                <tr>
+                    <td> 03pm - 05pm</td>
+                    <td>Portfolio review, rewards and endinh presentation</td>
+                    <td>+</td>
+                   
+                </tr>
+            </tbody>
+            
+            
+        </table>
         </div>
+        
+    </div>
+    <br>
+</section>       
+    <br>
+    <form>
+        <div>
+            <label for="login"> Введите логин</label>
+            <input type="text" placeholder="Логин" name="login" id="login">
+            <input type="password" placeholder="Пароль" name="password">
+            <input type="email" name="email">
+        </div>
+            <br>
+        <div>
+            <select name="choise" id="">
+                <option value="1">Выбор 1</option>
+                <option value="2">Выбор 2</option>
+                <option value="3">Выбор 3</option>
+            </select>
+        </div>
+            <br>
+        <div>
+            <input type="radio" name="radio">
+            <input type="radio" name="radio">
+            <input type="radio" name="radio">
+            <input type="radio" name="radio">
+        </div>
+            <br>
+        <div>
+            <textarea name="" id="" placeholder="Комментарий" name="comment"></textarea>
+        </div>
+            <br>
+        <div>
+            <label for="rules">Прочитал</label>
+            <input type="checkbox" id="rules">
+        </div>
+             <br>
+        <div>
+            <input type="file" name="file">
+        </div>
+            <br>
+        <button type="submit">Кнопка отправки</button>
+    </form>
+    <br>
+    <br>
+    <br>
+
+    <!--Первый экран-->
+    <header style="background: grey;">
+        <a target="_blank" href="https://click-market.ru" title="ClickMarket">
+             <img src="img/logo.png" alt="logo" title="ClickMarket">
+        </a>
+        <nav> 
+            <a href="#">ЗАКАЗАТЬ БИЛЕТ</a>
+            <a href="#">ПРЕИМУЩЕСТВА </a>
+            <a href="#">ФИЛЬМЫ </a>
+            <a href="#">КОНТАКТЫ</a>
+        </nav>
+            
+        <sub>Ваш город:</sub>
+        <u>Москва</u>
+           
+    </header>
+    <div>
+        <img width="400" src="img/firstscreen.jpg" alt="Первый кинотеатр" title="Первый кинотеатр">
+    </div>
 
         <div>
             <h1> Закажи билет в кино</h1>
